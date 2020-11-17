@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chrome-home page</title>
+    <link rel="shortcut icon" href="images/icon/fav.png" type="image/x-icon">
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<section class="chrome-homePage">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12">
+					<nav class="navbar navbar-light">
+						<a class="bannerTitle" href="https://tanvirbabu.github.io/tanvir.me/">Tanvir Hassan</a>
+						<a target="_blank" class="navbar-brand ml-auto" href="#">
+							<img class="banner-img" src="images/bg/banner-img.jpg">
+						</a>
+					</nav>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="left-itm d-flex flex-wrap">
+						<!-- gmail -->
+						<a target="_blank" href="https://mail.google.com/mail/u/2/#inbox" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/gmail.jpg" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Gmail</p>
+							</div>
+						</a>
+						<!-- github -->
+						<a target="_blank" href="https://github.com" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/github.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Github</p>
+							</div>
+						</a>
+						<!-- youtube -->
+						<a target="_blank" href="https://www.youtube.com" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/youtube.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Youtube</p>
+							</div>
+						</a>
+						<!-- upwork -->
+						<a target="_blank" href="https://upwork.com/" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/upwork.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Up Work</p>
+							</div>
+						</a>
+						<!-- fast -->
+						<a target="_blank" href="https://fast.com/" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/fast.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">fast.com</p>
+							</div>
+						</a>
+						<!-- drive -->
+						<a target="_blank" href="https://drive.google.com/" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/gdrive.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Drive</p>
+							</div>
+						</a>
+						<!-- facebook -->
+						<a target="_blank" href="https://facebook.com/" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/facebook.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Facebook</p>
+							</div>
+						</a>
+						<!-- add new -->
+						<a href="#" style="text-decoration: none">
+							<div class="most-visited">
+								<div class="image">
+									<img src="images/icon/addnew.png" alt="">
+								</div>
+								<p class="text-center mt-1 text-dark">Add New</p>
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<center>
+						<div class="right-itm">
+							<div class="google">
+								<img src="images/icon/google.png" alt="">
+							</div>
+							<form action="">
+								<div class="form-group">
+									<input type="text" class="input-form"  id="input" placeholder=" Search Google" required>
+									<i class="fa fa-microphone"></i>
+								</div>
+								<button type="submit" id="search" class="custom-btn">Google Search</button>
+								<button type="submit" id="search" class="custom-btn">I'm Feeling Lucky</button>
+							</form>
+						</div>
+					</center>
+					<br>
+					<div class="reminder">
+						<form action="">
+							<input type="text" class="input-note" id="note" placeholder="Add note">
+							<button type="submit" id="addNew" class="btn" id="addNotebutton">Add</button>
+							<button type="submit" id="clearAll" class="btn" id="addNotebutton">Clear All</button>
+						</form>
+						<div class="note-list">
+							<ol id="list-item">
+
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+/*-- Google Fonts --*/
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900|Orbitron:500,700|Ubuntu:400,500,700&display=swap');
+
+*{	
+	margin:0;
+	padding:0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Oxygen', sans-serif;
+	background: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    color: #424242;
+}
+
+a {
+    text-decoration: none;
+	cursor: pointer;
+}
+
+.row{
+    display: flex;
+    margin: 0px 30px;
+} 
+
+/* Banner */
+.banner-img {
+    width: 35px;
+    height: 35px;
+}
+.banner-img{
+    border-radius: 50%;
+}
+.bannerTitle{
+    font-size: 25px;
+	text-decoration: none;
+    color: rgb(1 1 1);
+    background-color: #ffa50000;
+    padding: 10px;
+	margin-left: 20px;
+    font-weight: 900;
+}
+.bannerTitle:hover {
+    text-decoration: none;
+    color: rgb(1 1 1);
+}
+
+/*-- Left Itm  */
+.left-itm {
+    position: relative;
+    height: 400px;
+    width: 90%;
+    background-color: ;
+    margin: 50px 0px;
+}
+
+.most-visited {
+    display: inline-block;
+    position: relative;
+    height: 110px;
+    width: 110px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.most-visited p {
+    font-weight: 600;
+}
+.most-visited:hover {
+    background: #ddd;
+}
+.image {
+    margin-top: 10px;
+    margin-left: 16px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px !important;
+    border-radius: 50%;
+    background-color: rgb(233, 230, 230);
+    box-shadow: 0px 0px 5px #ddd;
+}
+.image img {
+    position: absolute;
+    top: 25px;
+    right: 40%;
+    text-align: center;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+}
+
+
+/* Right Itm*/
+.right-itm{
+    margin-top: 65px;
+}
+.form-group{
+	position: relative;
+    width: 90%;
+}
+.input-form {
+    padding: 12px 20px;
+    margin-top: 40px;
+    border: none;
+    width: 100%;
+    height: 45px !important;
+    border-radius: 25px;
+    box-shadow: 0px 0px 12px 5px #ddd;
+}
+.form-group .fa-microphone {
+    position: absolute;
+    top: 55px;
+    right: 25px;
+    font-size: 20px;
+    color: darkred;
+}
+button#search:hover {
+    border: 1px solid #e3e3e3;
+	outline: none;
+}
+.input-form:focus{
+    outline: none;
+}
+button#search {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+.input-note{
+    padding: 12px 15px;
+    margin-top: 0px;
+    border: none;
+    width: 70%;
+    height: 40px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 0px 0px #ddd;
+}
+.note-list{
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    overflow: auto;
+    border-radius: 10px;
+}
+.reminder input:focus {
+    outline: none;
+	border: 1px solid #e3e3e3;
+}
+.reminder .btn {
+    color: #676666;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
